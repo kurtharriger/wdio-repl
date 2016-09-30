@@ -1,0 +1,26 @@
+{
+  "name": "wdio-repl",
+  "version": "1.0.0",
+  "description": "Webdriver.io REPL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurtharriger/wdio-repl.git"
+  },
+  "keywords": [
+    "webdriver",
+    "repl",
+    "testing",
+    "javascript",
+    "babel"
+  ],
+  "author": "Kurt Harriger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurtharriger/wdio-repl/issues"
+  },
+  "homepage": "https://github.com/kurtharriger/wdio-repl#readme"
+}
