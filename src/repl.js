@@ -11,11 +11,9 @@ export class WdioRepl extends Repl {
   }
 
   getTransformOptions() {
-    console.log('what are my options?');
     const babelrc = exists('.bablerc')
       ? JSON.parse(readFileSync('.babelrc', 'utf8'))
       : { presets: ['es2015', 'stage-0'] };
-    console.log('they are: ', babelrc);
     return {
       ...babelrc,
       plugins: [
@@ -27,9 +25,7 @@ export class WdioRepl extends Repl {
   }
 
   transpile(code) {
-
     const transformOptions = this.getTransformOptions();
-    console.log(transformOptions);
     // it is a syntax error to have an await outside of
     // an async function, but often in the repl I want
     // to execute a single line await statement.

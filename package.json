@@ -2,8 +2,9 @@
   "name": "wdio-repl",
   "version": "1.0.0",
   "description": "Webdriver.io REPL",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
