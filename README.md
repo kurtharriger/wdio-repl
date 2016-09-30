@@ -2,6 +2,9 @@
 
 This enables starting a javascript repl in a running webdriver test
 
+## Demo Video
+[![](https://i.ytimg.com/vi/kdM05ChhLQE/hqdefault.jpg)](https://www.youtube.com/watch?v=kdM05ChhLQE)
+
 ## Configure atom
 bin/install-atom.sh
 
