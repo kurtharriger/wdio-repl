@@ -5,7 +5,7 @@ import { exists, readFileSync } from 'fs';
 
 export class WdioRepl extends Repl {
   constructor(scriptRunner, scopedRequire, opts) {
-    super({port: 3001, ...opts});
+    super({port: 6001, ...opts});
     this.scriptRunner = scriptRunner || vm.runInThisContext;
     this.require = scopedRequire || require;
   }
