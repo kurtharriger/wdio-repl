@@ -1,6 +1,6 @@
 {
   "name": "@kurtharriger/wdio-repl",
-  "version": "0.1.0-wdio-repl",
+  "version": "0.1.1-wdio-repl",
   "description": "Webdriver.io REPL",
   "main": "lib/index.js",
   "scripts": {
