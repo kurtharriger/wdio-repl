@@ -1,4 +1,4 @@
-import { WdioRepl } from './src/repl.js'
+import { WdioRepl } from '../src/repl.js'
 
 class MyTest {
   abc = 123;

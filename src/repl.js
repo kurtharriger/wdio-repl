@@ -1,4 +1,4 @@
-const Repl = require('nel/lib/server.js');
+import { Server as Repl } from '@kurtharriger/nel/lib/server.js';
 import vm from 'vm';
 import { transform } from 'babel-core';
 import { exists, readFileSync } from 'fs';
@@ -58,7 +58,7 @@ export class WdioRepl extends Repl {
   }
 
   waitUntilDone() {
-    this.init();
+    this.start();
     console.log('Repl started on port 3001');
     return new Promise((r) => {
       global.quit = r;
