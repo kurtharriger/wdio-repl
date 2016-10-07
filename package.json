@@ -1,6 +1,6 @@
 {
   "name": "@kurtharriger/wdio-repl",
-  "version": "0.1.1-wdio-repl",
+  "version": "0.1.2-wdio-repl",
   "description": "Webdriver.io REPL",
   "main": "lib/index.js",
   "scripts": {
@@ -10,8 +10,7 @@
     "prepublish": "npm run build"
   },
   "bin": {
-    "wdio-kernel": "bin/wdio-kernel.js",
-    "wdio-repl": "bin/wdio-repl.js"
+    "wdio-kernel": "bin/wdio-kernel.js"
   },
   "repository": {
     "type": "git",
